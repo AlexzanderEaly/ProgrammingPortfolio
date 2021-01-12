@@ -1,0 +1,186 @@
+/*Alexzander Ealy 11/7-12/4/19
+Dr. John Kinuthia
+uses UTF-8 char encoding
+does the basic layout of my page for all pages*/
+
+header {
+	background-color: #483C32;
+         color: #FFFFFF;
+		 font-family: Georgia, serif;
+		 margin-right: 0px;
+}
+
+h1 {
+    margin: 0;
+    padding: .5em;
+}
+
+nav {
+	background-color: #8F7E4F;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+nav div a:hover {
+    background-color: #FFF;
+}
+
+nav div a {
+    color: #AF9B60;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: solid thin #FFF;
+    background-color: #483C32;
+    text-align: center;
+}
+
+nav div a:visited
+{
+    color: beige;
+}
+
+body {
+    background-color: #210f04;
+    padding: 1em;
+}
+
+section article {
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+	background-color: #343633;
+}
+
+/*gives basic box look to my webpages*/
+#wrapper {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color:#382E1C;
+        box-shadow: 3px 3px 3px #000000;
+        margin-top: 0px;
+        color: #CCC;
+}
+
+/*formats the image of hitler/Stalin/Kim*/
+#leaderImg {
+	align-content: center;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+/*makes the home link look like the dropdown boxes*/
+.cleanLink {
+    color: #AF9B60;
+    text-decoration: none;
+}
+
+/*used to make the visted look better*/
+.cleanLink:visited {
+    color: beige;
+}
+
+/*will be used to display the links at the bottokme of the page for navagtion of the blind*/
+.footerLink {
+	list-style: none;
+    position: relative;
+    display: inline-block;
+	
+}
+
+/*makes the dropdowm boxes*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0em 2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow:hidden;
+}
+
+
+.dropdown-content a {
+ float: left;
+    clear: both;
+    align-content: center;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*shows this picture as the background*/
+#backImg {
+    background-image: url("cc.png");
+}
+
+#linerGrad {
+    background-image: linear-gradient(red, pink, blue);
+    color: #FFF;
+}
+
+#semi {
+    background: rgba(165, 255, 255, 0.2);
+}
+
+/*edits the look of the page on moblie*/
+@media only screen and (max-width: 1000px)
+{
+    img {
+        display: none;
+    }
+    
+    #wrapper
+    {
+        width: 100%;
+        
+    }
+    
+    footer article a {
+        font-size: 2em;
+    }
+    
+    #showMe {
+        display: block;
+        margin: 0%;
+        background-color: #483C32;
+    }
+    
+    nav div a{
+        text-align: center;
+        width: 100%;
+        background-color: #483C32;
+        font-size: 2em;
+    }
+    
+    nav div p {
+        display: none;
+    }
+    
+    .dropdown {
+        display: flex;
+        margin: 0em 0em;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .dropdown-content
+    {
+        position: static;
+        display: block;
+        clear: both;
+    }
+}

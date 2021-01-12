@@ -1,0 +1,36 @@
+/*Alexzander Ealy 12/1-12/4/19
+Dr. John Kinuthia
+uses UTF-8 char encoding
+/*It will be used to format the form and table on my webstie*/
+
+table caption {
+        border: solid #CCC thin;
+        text-shadow: 4px 4px 4px #000000;
+        font-size: 2em;
+}
+
+table {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+    border: solid #CCC thin;
+    border-collapse: collapse;
+}
+
+thead {
+	text-align: left;
+	color: #AAA;
+}
+
+tbody {
+ 	color: #AAA;
+}
+
+
+td {
+    border: solid #CCC thin;
+}
+
+th {
+    border: solid #CCC thin;
+}

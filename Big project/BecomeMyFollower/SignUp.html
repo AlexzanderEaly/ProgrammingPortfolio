@@ -1,0 +1,109 @@
+<!-- Alexzander Ealy 11/7-12/4/19
+Dr. John Kinuthia
+ISYS 288-001
+mock sign up page about becoming a dictator-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    	<link href="../base.css" rel="stylesheet" type="text/css">
+        <link href="../formTable.css" rel="stylesheet" type="text/css">
+        <link href="formFillers.js" type="text/javaScript">
+<title>DRU: Become My Follower</title>
+</head>
+<main id="wrapper">
+<header>
+	<h1>Sign Up!</h1>
+</header>
+        <nav>
+        <div class="dropdown">
+            <a href="../index.html" class="cleanLink"><p id="showMe">Home</p></a>
+            </div>
+        <div class="dropdown">
+            <p>Types of Goverment</p>
+                <div class="dropdown-content">
+                    <a href="../TypesOfGov/Demo.html">Demo</a>
+                    <a href="../TypesOfGov/Comm.html">Comm</a>
+                    <a href="../TypesOfGov/Dictator.html">Dictator</a>
+                </div>
+        </div>
+        
+        <div class="dropdown">
+            <p>History Of Dictators</p>
+                <div class="dropdown-content">
+                    <a href="../Dictator/Hitler.html">Hitler</a>
+                    <a href="../Dictator/Stalin.html">Stalin</a>
+                    <a href="../Dictator/Kim.html">Kim Jong-un</a>
+                </div>
+        </div>
+        
+        <div class="dropdown">
+            <p>Become My Follower</p>
+                <div class="dropdown-content">
+                    <a href="../BecomeMyFollower/whyMe.html">Why Me</a>
+                    <a href="../BecomeMyFollower/SignUp.html">Sign Up</a>
+                    <a href="../BecomeMyFollower/testIdeas.html">Upcoming ideas</a>
+                </div>
+        </div>
+    </nav>
+<body>
+	<form onSubmit="return false">
+			<fieldset>
+			<legend> Filter</legend>
+				<label id="userNameLabel">Name</label> 
+				<input type="text" name="userName" placeholder="enter Name" id="userName">
+                <br>
+				
+				<label id="listLabel">Type of goverment</label>
+				<select id="fillThis">
+			
+				</select><br>
+                
+				<label>Status</label>
+				<radiogroup>
+					<input type="radio" name="status" value="Dictator" checked> future dictator
+					<input type="radio" name="status" value="Presdient"> future presdienit
+					<input type="radio" name="status" value="Follower"> devout follower
+				
+                </radiogroup>
+                <br>
+				<label id="powerDateLabel">Plan date to come to power?</label>
+				<input type="date" name="powerDate" id="powerDate">
+				<br>
+                
+				<input type="button" onclick="valid()" value="Get Score">
+                <input type="button" onclick="clear()" value="Clear">
+				
+				<script src="formFillers.js"></script>
+			</fieldset>
+			</form>
+</body>
+	<footer><article class="footerLink">
+                <ul class="footerLink">
+                    <li><a class="cleanLink" href="../index.html">Home</a></li>
+                    <li><a class="cleanLink" href="../TypesOfGov/Comm.html">Communism</a></li>
+                    <li><a class="cleanLink" href="../TypesOfGov/Demo.html">Democarcy</a></li>
+                    <li><a class="cleanLink" href="../TypesOfGov/Dictator.html">Democarcy</a></li>
+                </ul>
+            </article> 
+            
+            <article class="footerLink">
+            
+            
+                <ul class="footerLink">
+                    <li><a class="cleanLink" href="../Dictator/Hitler.html">Hitler</a></li>
+                    <li><a class="cleanLink" href="../Dictator/Stalin.html"> Stalin</a></li>
+                    <li><a class="cleanLink" href="../Dictator/Kim.html">Kim</a></li>
+                </ul>
+            </article>
+            
+            <article class="footerLink">
+                <ul class="footerLink">
+                    <li><a class="cleanLink" href="../BecomeMyFollower/SignUp.html">Sign Up</a></li>
+                    <li><a class="cleanLink" href="../BecomeMyFollower/whyMe.html">Why Me</a></li>
+                </ul>
+            </article>
+            
+            <p>&copy;This page is protected under Creative Commons Attribution-ShareAlike 3.0 Unported License <a class="cleanLink" href="../cite.html">Terms of Use</a></p> </footer>
+</main>
+</html>
