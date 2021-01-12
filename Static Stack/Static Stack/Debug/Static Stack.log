@@ -1,0 +1,34 @@
+﻿Build started 11/27/2018 1:56:40 PM.
+     1>Project "C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Static Stack\Static Stack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\IDE\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StackTest.cpp
+         StackTest.cpp
+     1>c:\users\lcs\desktop\college\fall 2018\cis 264\week(ch 18)\pe 1-4,10,11\static stack\static stack\staticstack.h(34): warning C4812: obsolete declaration style: please use 'StaticStack<T>::StaticStack' instead
+     1>c:\users\lcs\desktop\college\fall 2018\cis 264\week(ch 18)\pe 1-4,10,11\static stack\static stack\staticstack.h(34): warning C4812: obsolete declaration style: please use 'StaticStack<T>::StaticStack' instead
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\lcs\desktop\college\fall 2018\cis 264\week(ch 18)\pe 1-4,10,11\static stack\static stack\staticstack.h(35) : while compiling class template member function 'StaticStack<T>::StaticStack(StaticStack<T> &)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\lcs\desktop\college\fall 2018\cis 264\week(ch 18)\pe 1-4,10,11\static stack\static stack\stacktest.cpp(21) : see reference to function template instantiation 'StaticStack<T>::StaticStack(StaticStack<T> &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\lcs\desktop\college\fall 2018\cis 264\week(ch 18)\pe 1-4,10,11\static stack\static stack\stacktest.cpp(10) : see reference to class template instantiation 'StaticStack<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         F:\IDE\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Debug\Static Stack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Debug\Static Stack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Debug\Static Stack.lib" /MACHINE:X86 Debug\StackTest.obj
+         Static Stack.vcxproj -> C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Debug\Static Stack.exe
+     1>Done Building Project "C:\Users\lcs\Desktop\College\FALL 2018\CIS 264\WEEK(CH 18)\PE 1-4,10,11\Static Stack\Static Stack\Static Stack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18
