@@ -1,0 +1,25 @@
+﻿<Window x:Class="webSystemGUI.ConfirmBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:webSystemGUI"
+        mc:Ignorable="d"
+        Title="ConfirmBox" Height="314" Width="490">
+    <Grid Margin="0,0,0,4" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.059"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button x:Name="yesBtn" Content="Yes" Height="44" Width="86" Click="yesBtn_Click" VerticalAlignment="Top" Margin="0,190,321,0" HorizontalAlignment="Right" FontSize="16"/>
+        <Button x:Name="noBtn" Content="No" Height="44" Width="86" Click="noBtn_Click" VerticalAlignment="Top" Margin="0,192,105,0" HorizontalAlignment="Right" FontSize="16"/>
+        <Label x:Name="removeLbl" Content="Are you sure you want to remove:" VerticalAlignment="Top" Margin="0,84,138,0" FontSize="16" HorizontalAlignment="Right" Width="248"/>
+        <Label x:Name="removeItemLbl" Content="" VerticalAlignment="Top" Margin="91,115,0,0" HorizontalAlignment="Left"/>
+        <Label x:Name="itemNumLbl" Content="" HorizontalAlignment="Left" Margin="68,146,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿webSystemGUI
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\lcs\Desktop\FSU college\SPRING 2021\CAP STONE\webSystemGUI\obj\Debug\netcoreapp3.1\
+webSystemGUI
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\lcs\Desktop\FSU college\SPRING 2021\CAP STONE\webSystemGUI\App.xaml
+11-1124374430
+10-1084291496
+14-1924881906
+200866012533
+AddModifyLink.xaml;AddModifyUser.xaml;AssignFilterToCrwaledLinks.xaml;AssignUserToSection.xaml;ConfirmBox.xaml;FindResults.xaml;MainWindow.xaml;PreviewLink.xaml;RemoveCrwaledLinks.xaml;RemoveLink.xaml;RemoveUser.xaml;
+
+False
+

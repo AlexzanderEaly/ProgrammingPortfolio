@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Python code and stuff\.idea\inspectionProfiles\profiles_settings.xml" />
+    <Content Include="Python code and stuff\.idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include="Python code and stuff\.idea\misc.xml" />
+    <Content Include="Python code and stuff\.idea\modules.xml" />
+    <Content Include="Python code and stuff\.idea\workspace.xml" />
+    <Content Include="Python code and stuff\PreviewSoup\.idea\inspectionProfiles\profiles_settings.xml" />
+    <Content Include="Python code and stuff\PreviewSoup\.idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include="Python code and stuff\PreviewSoup\.idea\misc.xml" />
+    <Content Include="Python code and stuff\PreviewSoup\.idea\modules.xml" />
+    <Content Include="Python code and stuff\PreviewSoup\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Python code and stuff\.idea\.gitignore" />
+    <None Include="Python code and stuff\.idea\PreviewSoup.iml" />
+    <None Include="Python code and stuff\PreviewSoup\.idea\.gitignore" />
+    <None Include="Python code and stuff\PreviewSoup\.idea\PreviewSoup.iml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Python code and stuff\PreviewSoup\venv\Include\" />
+  </ItemGroup>
+
+</Project>

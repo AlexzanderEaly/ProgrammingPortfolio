@@ -1,0 +1,11 @@
+C:\Users\lcs\Desktop\Steam buys\webSystemGUI.exe
+C:\Users\lcs\Desktop\Steam buys\webSystemGUI.dll
+C:\Users\lcs\Desktop\Steam buys\webSystemGUI.deps.json
+C:\Users\lcs\Desktop\Steam buys\webSystemGUI.runtimeconfig.json
+C:\Users\lcs\Desktop\Steam buys\webSystemGUI.pdb
+C:\Users\lcs\Desktop\Steam buys\System.Data.SqlClient.dll
+C:\Users\lcs\Desktop\Steam buys\runtimes\win-arm64\native\sni.dll
+C:\Users\lcs\Desktop\Steam buys\runtimes\win-x64\native\sni.dll
+C:\Users\lcs\Desktop\Steam buys\runtimes\win-x86\native\sni.dll
+C:\Users\lcs\Desktop\Steam buys\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lcs\Desktop\Steam buys\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
